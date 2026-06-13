@@ -21,7 +21,7 @@ clusters) over the retrieved evidence.
 - Python 3.10 or newer
 - ~2 GB free disk space (embedding model + index)
 - Internet access on first run (to download the embedding model)
-- A Gemini API key is optional (local fallback works without it)
+- A Gemini API key
 
 ## Installation
 
@@ -51,7 +51,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## (Optional) Gemini setup
+## Gemini setup
 
 ```text
 copy .env.example .env     (Windows)   |   cp .env.example .env   (macOS/Linux)
@@ -85,7 +85,7 @@ streamlit run app.py
 ```text
 app.py                  Streamlit application
 requirements.txt        dependencies
-.env.example            optional Gemini configuration template
+.env.example            Gemini configuration template
 src/mintri_rag/         core package (loaders, chunking, retrieval, generation, text mining)
 scripts/ingest.py       builds the retrieval index from data/raw/
 data/raw/               source documents (the corpus)
