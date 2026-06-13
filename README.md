@@ -57,7 +57,7 @@ pip install -r requirements.txt
 copy .env.example .env     (Windows)   |   cp .env.example .env   (macOS/Linux)
 ```
 
-Then edit `.env` and set `GEMINI_API_KEY`. Without a key the app uses the local extractive fallback.
+Then edit `.env` and set `GEMINI_API_KEY`.
 
 ## Build the index
 
