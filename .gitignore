@@ -1,0 +1,21 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Secrets ---
+.env
+
+# --- Tooling ---
+.claude/
+
+# --- Generated at runtime (rebuilt by scripts/ingest.py) ---
+vector_store/
+data/processed/
+
+# --- Not part of the prototype: kept locally, NOT published to GitHub ---
+reports/
+scripts/evaluate.py
+scripts/experiment_*.py
+scripts/build_*
+*.log

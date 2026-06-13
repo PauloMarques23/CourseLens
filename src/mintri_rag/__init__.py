@@ -1,0 +1,2 @@
+"""CourseLens RAG prototype package."""
+
